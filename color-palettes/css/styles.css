@@ -1,0 +1,88 @@
+#p1head {
+    text-align: center;
+    font-family: impact;
+}
+.p1div {
+    font-family: Impact;
+    text-align: center;
+    padding: 24px;
+    width: 150px; 
+    height: 150px;
+    margin: 10px auto;
+}
+#p1c1 {
+    background-color: #4C191B;
+    color: white;
+}
+#p1c2 {
+    background-color: #c589e8;
+    color: white;
+}
+#p1c3 {
+    background-color: #ecfff8;
+    color: black;
+}
+#p2head {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p2div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 24px;
+    width: 150px; 
+    height: 150px;
+    margin: 10px auto;
+}
+#p2c1 {
+    background-color: #FFBE86;
+    color: white;
+}
+#p2c2 {
+    background-color: #FFE156;
+    color: white;
+}
+#p2c3 {
+    background-color: #FFE9CE;
+    color: black;
+}
+#p2c4 {
+    background-color: #FFB5C2;
+    color: white;
+}
+#p2c5 {
+    background-color: #3777FF;
+    color: white;
+}
+#p3head {
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.p3div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 24px;
+    width: 150px; 
+    height: 150px;
+    margin: 10px auto;
+}
+#p3c1 {
+    background-color: #2C363F;
+    color: white;
+}
+#p3c2 {
+    background-color: #E75A7C;
+    color: white;
+}
+#p3c3 {
+    background-color: #F2F5EA;
+    color: black;
+}
+#p3c4 {
+    background-color: #D6DBD2;
+    color: white;
+}
+#p3c5 {
+    background-color: #BBC7A4;
+    color: white;
+}
