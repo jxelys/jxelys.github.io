@@ -1,0 +1,78 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+
+.frame-1{
+    border: 10px ridge #3c3c3c;
+    margin: 70px -12px 0px;
+    box-shadow: -2px 2px 2px #444;
+    display: inline-block;
+}
+.frame-1 div {
+    background-color: #ddd;
+    border: 0px;
+    box-shadow: inset 0px 0px 4px;
+    padding: 16px;
+}
+.frame-1 img {
+    width: 80px;
+}
+
+.frame-2 {
+    border: 10px ridge #3c3c3c;
+    margin: 70px 14px 0px;
+    box-shadow: -2px 2px 2px #444;
+    display: inline-block;
+}
+
+.frame-2 div {
+    background-color: #ddd;
+    border: 0px;
+    box-shadow: inset 0px 0px 4px;
+    padding: 16px;
+}
+
+.frame-2 img {
+    width: 80px;
+    display: block;
+}
+.frame-3 {
+    border: 10px ridge #3c3c3c;
+    margin: 70px -12px 0px;
+    box-shadow: -2px 2px 2px #444;
+    display: inline-block;
+}
+
+.frame-3 div {
+    background-color: #ddd;
+    border: 0px;
+    box-shadow: inset 0px 0px 4px;
+    padding: 16px;
+}
+
+.frame-3 h6 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.frame-4 {
+    border: 10px ridge #3c3c3c;
+    margin: 50px 12px 0px;
+    box-shadow: -2px 2px 2px #444;
+    display: inline-block;
+}
+
+.frame-4 div {
+    background-color: #ddd;
+    border: 0px;
+    box-shadow: inset 0px 0px 4px;
+    padding: 16px;
+}
+
+.frame-4 img {
+    width: 80px;
+    display: block;
+}
