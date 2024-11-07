@@ -6,21 +6,12 @@ body {
     font-family: sans-serif;
 }
 img {
-    width: 100%;
-    object-fit: cover;
+    height: 300px;
 }
-.main-column {
-    width: 85%;
+.single-column {
+    width: 80%;
     max-width: 1440px;
+    margin: 0px auto;
+    text-align: center;
 }
-.container-1 {
-    background-color: purple;
-}
-.container-1-text {
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
 

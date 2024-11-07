@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#two-columns {
+    display: flex;
+    height: 100vh;
+}
+#sidebar {
+    background-color: lightgoldenrodyellow;
+    width: 250px;
+    padding: 24px;
+    border-right: 2px solid orchid;
+    h2 {
+        border-bottom: 2px solid orchid;
+        padding: 8px;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0px;
+        li {
+            padding: 4px 0px;
+        }
+        a {
+            color: #111;
+            text-decoration: none;
+        }
+    }
+}
+/* 
+    You may wither apply flex property on both flex iems unless a sizing 
+    property is applied to an item
+ */
+#main {
+    padding: 48px;
+    flex: 1;
+}
