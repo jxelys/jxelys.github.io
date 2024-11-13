@@ -23,6 +23,8 @@ img {
 }
 #more-info {
     grid-area: info;
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
 }
 #price-section {
     display: grid;
