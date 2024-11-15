@@ -13,7 +13,7 @@
 body {
     margin: 0px;
 }
-img {
+.card-style-3 img {
     width: 100%;
     object-fit: cover;
     border: 5px solid goldenrod;
@@ -21,10 +21,6 @@ img {
 .card-style-3 {
     margin: 20px;
     width: 350px;
-    padding: 0px 20px;
-    background-color: yellow;
-    border: 15px solid gold;
-    border-radius: 10px;
     .details {
         background-color: goldenrod;
         font-size: 11px;
@@ -41,8 +37,51 @@ img {
         font-size: 20px;
     }
 }
-#pokemon-card-1 {
+.attack {
     display: flex;
-    flex-direction: column;
-
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin: 15px
+}
+.description {
+    font-size: 12px;
+    .bold {
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+.power {
+    font-weight: bold;
+}
+.data {
+    border: 2px solid goldenrod;
+    padding: 0px 5px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#pokemon-card-1 {
+    background: linear-gradient(-50deg, lightgreen, darkgreen, lightgreen);
+    border: 15px solid gold;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+#pokemon-card-2 {
+    background: linear-gradient(-50deg, lightgreen, darkgreen, lightgreen);
+    border: 15px solid gold;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+#pokemon-card-3 {
+    background: linear-gradient(-50deg, orange, rgb(221, 92, 32), orange);
+    border: 15px solid gold;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+#pokemon-card-4 {
+    background: linear-gradient(-50deg, cyan, #47abab, cyan);
+    border: 15px solid gold;
+    border-radius: 10px;
+    padding: 0px 20px;
 }
