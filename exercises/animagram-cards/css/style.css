@@ -7,13 +7,18 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+* {
+    box-sizing: border-box;
+}
 .card-style-2 {
     display: flex;
     flex-direction: column;
     background-color: white;
     width: 350px;
+    height: 530px;
     border-radius: 8%;
     padding: 20px;
+    margin: 20px;
     img {
         width: 350px;
     }
@@ -22,19 +27,35 @@
     }
     p {
         text-align: center;
+        padding-bottom: 20px;
     }
 }
 .card-style-2 .animagram-header {
     display: flex ;
     justify-content: space-between;
+    align-items: center;
 }
 .card-style-2 .animagram-header .brand-name {
-    font-size: 25px;
+    font-size: 28px;
 }
-
+.card-style-2 .profile-pic-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
 .card-style-2 .profile-pic-container img {
     height: 200px;
     width: 200px;
     object-fit: cover;
     border-radius: 100%;
+}
+.animagram-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    span {
+        font-size: 25px;
+    }
 }
