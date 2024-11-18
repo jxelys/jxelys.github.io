@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    margin: 0px;
+}
+#hero-1 {
+    background-image: url(../images/leaf-texture.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-size: 8rem;
+        text-align: center;
+        color: white;
+        margin: 0px;
+    }
+    h3 {
+        font-size: 30px;
+        text-align: center;
+        color: antiquewhite;
+        margin-bottom: 70px;
+    }
+    a {
+        color: antiquewhite;
+        background-color: #186918;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 20px;
+        margin: 200px;
+    }
+    .hero-content {
+        background-color: #133113;
+        padding: 100px;
+    }
+}
+#hero-2 {
+    background-image: url(../images/cityscape.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    h1 {
+        color: white;
+        font-size: 8rem;
+        margin: 0px;
+        text-align: center;
+    }
+    h3 {
+        color: #46ad16;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 70px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #096d8b;
+        padding: 25px;
+        margin: 230px;
+    }
+    .hero-content {
+        background-color: #11364fb3;
+        padding: 70px;
+    }
+}
+#hero-3 {
+    background-image: url(../images/jellyfish.jpg);
+    background-size: cover;
+    background-position: center left;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5px;
+    h1 {
+        font-size: 4rem;
+        color: white;
+        text-align: right;
+    }
+    h3 {
+        color: rgb(247, 14, 219);
+        font-size: 25px;
+        text-align: right;
+        margin-bottom: 50px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #d62abc;
+        padding: 15px;
+    }
+    .hero-content {
+        background-color: #5e0262a0;
+        padding: 30px;
+    }
+}
