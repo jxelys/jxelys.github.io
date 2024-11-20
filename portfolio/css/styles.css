@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#hero {
+    background-image: url(../images/hero.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 400px;
+    h1 {
+        text-align: center;
+        font-size: 7rem;
+        color: antiquewhite;
+        text-transform: uppercase;
+    }
+    a {
+        color: antiquewhite;
+        font-size: 50px;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: black;
+        padding: 40px;
+    }
+}
+#card-layout {
+    margin-left: 100px;
+    display: grid;
+    grid-template-areas: 
+        ". card-1 card-2 ."
+    ;
+}
+.cards {
+    width: 500px;
+    background-color: #000000;
+    padding: 54px;
+    box-shadow: -4px 4px 12px #292b54;
+    text-align: center;
+    h4 {
+        text-transform: uppercase;
+        font-size: 40px;
+        color: antiquewhite;
+        margin-bottom: 14px;
+        margin-top: 14px;
+    }
+    p {
+        margin-bottom: 34px;
+        color: white;
+    }
+    a {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: rgb(213, 188, 154);
+        padding: 14px;
+    }
+}
+#card-1 {
+    grid-area: card-1;
+}
+#card-2 {
+    grid-area: card-2;
+}
+h3 {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: antiquewhite;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#labels {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: antiquewhite;
+    background-color: black;
+    padding: 40px;
+}
+#gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+    img {
+       width: 100%;
+       margin-bottom: 24px;
+    }
+}
+#parallax {
+    height: 50vh;
+    margin: 60px 0px;
+    background-image: url(../images/concrete.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
