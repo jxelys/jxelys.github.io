@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+nav {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav a {
+    padding: 20px 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0px;
+    }
+    nav a {
+        padding: 0px;
+    }
+}

@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#nav-1 {
+    background-color: #4f834F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        text-decoration: none;
+        color: white;
+        padding: 24px;
+        font-weight: bold;
+    }
+}
+a#haven-logo {
+    color: #ffddb6;
+    font-size: 30px;
+    font-family: fantasy;
+}
+#nav2 {
+    background-color: #b43e0e;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+a#button {
+    background-color: #fe9135;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+a#angel-logo {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+}
