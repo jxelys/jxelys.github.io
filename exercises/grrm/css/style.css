@@ -443,11 +443,11 @@ body {
     #grid-lyout {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
-        "top-left-acc header  top-right-acc"
-        "left-accent  navbar  right-accent"
-        "left-accent  banner right-accent"
+        "header header  header"
+        "navbar  navbar  navbar"
+        "banner  banner banner"
         "card-1  card-2  card-3"
-        "aside   blog    blog"
+        "aside   blog   blog"
         "footer  footer  footer"
         "bottom  bottom  bottom";
     }
