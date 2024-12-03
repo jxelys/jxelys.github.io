@@ -4,11 +4,12 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #f2d6a1;
 }
 nav {
     display: flex;
     align-items: center;
-    background-color: rgb(85, 117, 38);
+    background-color: #92ada4;
 }
 nav a {
     display: inline-block;
@@ -44,4 +45,151 @@ nav > .logo {
 .dropdown-main:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
+}
+#hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center right;
+    height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 670px;
+    h1 {
+        font-size: 4rem;
+        color: #ffcc5e;
+        margin-top: 90px;
+    }
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 2rem;
+        color: white;
+        background-color: #92ada4;
+        padding: 20px;
+        border-radius: 3px;
+    }
+}
+h2 {
+    text-align: center;
+    font-size: 4rem;
+    color: #6d847c;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    background-color: #92ada4;
+    padding: 20px;
+    border-radius: 3px;
+}
+.adopt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    img {
+        width: 80%;
+        border: 3px dashed #92ada4;
+        padding: 5px;
+    }
+}
+.column-layout {
+    width: 80%;
+    min-width: 500px;
+    max-width: 1440px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    img {
+        width: 700px;
+        margin-top: 25px;
+        border: 3px dashed #92ada4;
+        padding: 5px;
+    }
+    .dog-info {
+        text-align: center;
+        background-color: #f8e4b9;
+        width: 97%;
+        margin-top: 30px;
+        padding-bottom: 30px;
+        h3 {
+            font-size: 5rem;
+            color: #92ada4;
+            margin-top: 30px;
+            margin-bottom: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        h4 {
+            font-size: 2rem;
+            color: #52655e;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    }
+    p {
+        text-align: center;
+        font-size: 30px;
+        color: #2b433b;
+        margin-top: 60px;
+        border: 3px dashed #92ada4;
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 780px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    #hero {
+        background-position: center center;
+        gap: 550px;
+        h1 {
+            text-align: center;
+        }
+        a {
+            font-size: 1.5rem;
+        }
+    }
+    h2 {
+        margin-top: 200px;
+    }
+    a {
+        font-size: 1rem;
+
+    }
+    .column-layout {
+        img {
+            width: 400px;
+        }
+        .dog-info {
+            width: 85%;
+            h3 {
+                font-size: 3rem;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            h4 {
+                font-size: 1.5rem;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        }
+        p {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+    }
 }
