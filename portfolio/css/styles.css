@@ -107,3 +107,23 @@ h3 {
     background-size: cover;
     background-attachment: fixed;
 }
+@media screen and (min-width: 400px) {
+    #hero {
+        gap: 600px;
+        width: 100%;
+        h1 {
+            font-size: 4rem;
+        }
+        a {
+            font-size: 20px;
+            padding: 30px;
+        }
+    }
+    #card-layout {
+        display: flex;
+        flex-direction: column;
+    }
+    .cards {
+        width: 400px;
+    }
+}
