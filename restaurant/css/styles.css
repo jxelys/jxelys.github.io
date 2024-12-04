@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    img {
+        height: 150px;
+    }
+}
+#hero {
+    background-image: url(../images/darkroom.jpg);
+    background-size: cover;
+    background-position: center left;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    h1 {
+        color: white;
+        font-size: 4rem;
+        margin-left: 25px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        background-color: #7f52a1;
+        margin-left: 25px;
+        padding: 15px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
