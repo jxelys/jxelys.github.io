@@ -122,8 +122,14 @@ h3 {
     #card-layout {
         display: flex;
         flex-direction: column;
+        gap: 50px;
     }
     .cards {
         width: 400px;
+    }
+    #labels {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
     }
 }
