@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+.iceland-regular {
+    font-family: "Iceland", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
 * {
     box-sizing: border-box;
 }
@@ -6,18 +12,26 @@ body {
     font-family: sans-serif;
 }
 nav {
-    background-color: white;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    span a:hover {
+            box-shadow: 0px 0px 20px #e600ff;
+        }
 }
 nav a {
-    color: black;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    font-family: iceland;
+    font-size: 2rem;
+    padding: 25px;
+    margin-right: 25px;
     img {
         height: 150px;
+        border-radius: 100%;
     }
 }
 #hero {
@@ -27,21 +41,88 @@ nav a {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    h1 {
-        color: white;
-        font-size: 4rem;
-        margin-left: 25px;
+    img {
+        height: 400px;
     }
     a {
         text-decoration: none;
         color: white;
-        background-color: #7f52a1;
-        margin-left: 25px;
+        border: 4px solid #8f0af4;
+        margin-left: 40px;
         padding: 15px;
         border-radius: 5px;
         text-transform: uppercase;
         font-weight: bold;
+        font-family: iceland;
+        font-size: 2rem;
+        transition: box-shadow 0.5s, border-color 0.5s, font-size 0.5s;
+    }
+    a:hover {
+        box-shadow: 0px 0px 20px #e600ff;
+        border-color: #e600ff;
+        font-size: 3rem;
     }
 }
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 300px;
+    img {
+        height: 200px;
+    }
+    span {
+        color: white;
+        font-family: iceland;
+        font-size: 20px;
+    }
+}
+#featured-item {
+    background-image: url(../images/hamburger.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    img {
+        margin-top: 40px;
+        height: 100px;
+    }
+}
+#menu {
+    background-color: #7e3fae;
+    padding: 20px;
+    padding-bottom: 100px;
+    h2 {
+        color: white;
+        font-family: iceland;
+        font-size: 100px;
+        text-align: center;
+        padding-top: 30px;
+        margin-top: 0px;
+    }
+    .menu-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .card {
+        color: white;
+        font-family: iceland;
+        font-size: 40px;
+        border: 4px solid white;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+  
