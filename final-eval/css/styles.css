@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Bungee&family=Racing+Sans+One&display=swap');
+.bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.bowlby-one-sc-regular {
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.racing-sans-one-regular {
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/football.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+#single-column {
+    width: 85%;
+    min-width: 500px;
+    max-width: 1440px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#header {
+    padding-top: 20px;
+    h4 {
+        font-size: 30px;
+        font-family: "Racing Sans One";
+        font-weight: 400;
+        color: white;
+    }
+    h2 {
+        font-size: 100px;
+        font-family: "Racing Sans One";
+        color: white;
+    }
+    h3 {
+        font-size: 70px;
+        font-family: "Racing Sans One";
+        color: white;
+    }
+}
+.matchup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#vs {
+    font-size: 50px;
+    font-family: "Racing Sans One";
+    color: white;
+}
+.teams {
+    img {
+        height: 300px;
+    }
+    h3 {
+        font-size: 50px;
+        font-family: "Racing Sans One";
+        color: white;
+    }
+}
+#party-info {
+    h3 {
+        font-size: 60px;
+        font-family: "Racing Sans One";
+        color: white;
+    }
+    h4 {
+        font-size: 30px;
+        font-family: "Racing Sans One";
+        color: white;
+    }
+}
+#cta-buttons {
+    padding-bottom: 20px;
+    a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-weight: bold;
+        margin: 10px;
+    }
+    #can {
+        background-color: rgb(0, 34, 255);
+        padding: 20px;
+        border-radius: 1px;
+    }
+    #cant {
+        background-color: rgb(209, 5, 5);
+        padding: 20px;
+        border-radius: 1px;
+    }
+
+}
+a:hover {
+    border: 5px solid white;
+}
+#questons {
+    p {
+        color: white;
+        font-family: "Racing Sans One";
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 800px) {
+    #header {
+        h2 {
+            font-size: 80px;
+        }
+        h3 {
+            font-size: 50px;
+        }
+    }
+    .teams {
+        img {
+            height: 200px;
+        }
+        h3 {
+            font-size: 40px;
+        }
+    }
+    #vs {
+        h2 {
+            font-size: 60px;
+        }
+    }
+    #party-info {
+        h3 {
+            font-size: 47px;
+        }
+    }
+}
