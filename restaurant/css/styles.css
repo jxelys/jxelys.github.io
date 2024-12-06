@@ -44,7 +44,9 @@ nav a {
     align-items: center;
     justify-content: center;
     img {
-        height: 400px;
+        height: 600px;
+        object-fit: contain;
+        padding-left: 10px;
     }
     a {
         text-decoration: none;
@@ -92,6 +94,13 @@ nav a {
     align-items: center;
     h4 {
         color: white;
+        font-family: iceland;
+        font-size: 30px;
+        margin: 5px;
+        padding: 11px;
+        background-color: #7e3fae;
+        text-align: center;
+        width: 40%;
     }
     img {
         margin-top: 40px;
@@ -111,20 +120,91 @@ nav a {
         margin-top: 0px;
     }
     .menu-cards {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
+        width: 30%;
+        padding-left: 150px;
     }
     .card {
         color: white;
         font-family: iceland;
         font-size: 40px;
         border: 4px solid white;
-        padding: 20px;
+        padding: 10px;
         text-align: center;
     }
 }
-
-  
+@media screen and (max-width: 800px) {
+    nav {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    nav span a {
+        padding: 10px;
+    }
+    #hero {
+        img {
+            object-fit: contain;
+            width: 700px; 
+        }
+    }
+    #featured-item {
+        img {
+            height: 70px;
+            object-fit: contain;
+        }
+        h4 {
+            font-size: 25px;
+        }
+    }
+    #menu {
+        .menu-cards {
+            padding-left: 5px;
+        }
+    }
+}
+@media screen and (max-width: 500px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        font-size: 1.25rem;
+        margin-right: 0px;
+    }
+    #hero {
+        img {
+            height: 200px;
+        }
+        a {
+            font-size: 1rem;
+        }  
+        a:hover {
+            box-shadow: 0px 0px 20px #e600ff;
+            border-color: #e600ff;
+            font-size: 1.2rem;
+        }      
+    }
+    #featured-item {
+        img {
+            height: 40px;
+            object-fit: contain;
+        }
+        h4 {
+            font-size: 15px;
+            width: 80%;
+        }
+    }
+    #menu {
+        .menu-cards {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .cards {
+                h3 {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
