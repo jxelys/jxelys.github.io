@@ -29,6 +29,7 @@ nav a {
     font-size: 2rem;
     padding: 25px;
     margin-right: 25px;
+    border-radius: 3px;
     img {
         height: 150px;
         border-radius: 100%;
@@ -72,7 +73,8 @@ nav a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(8,7,32,1) 90%, rgba(5,12,30,1) 100%);
     height: 300px;
     img {
         height: 200px;
@@ -84,14 +86,11 @@ nav a {
     }
 }
 #featured-item {
-    background-image: url(../images/hamburger.jpg);
-    background-position: center center;
-    background-size: cover;
-    height: 75vh;
+    background-color: black;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: center;
+    padding: 30px;
     h4 {
         color: white;
         font-family: iceland;
@@ -100,15 +99,21 @@ nav a {
         padding: 15px;
         background-color: #7e3fae;
         text-align: center;
-        width: 40%;
     }
-    img {
-        margin-top: 40px;
+    #label {
         height: 100px;
+    }
+    #com {
+        padding: 20px;
+    }
+    #burger {
+        padding: 20px;
+        height: 600px;
+        object-fit: contain;
     }
 }
 #menu {
-    background-color: #7e3fae;
+    background-color: black;
     padding: 20px;
     padding-bottom: 100px;
     h2 {
@@ -127,12 +132,20 @@ nav a {
         gap: 30px;
     }
     .card {
-        color: white;
+        color: #efe3f8;
+        text-shadow: 1px 2px #381155;
         font-family: iceland;
         font-size: 40px;
-        border: 4px solid white;
+        border: 4px solid #7e3fae;
+        box-shadow: 5px 4px 1px #30094f;
         padding: 20px;
         text-align: center;
+        flex: 1;
+    }
+    .card:hover {
+        box-shadow: 0px 0px 20px #e600ff;
+        border-color: #e600ff;
+        font-size: 3rem;
     }
 }
 @media screen and (max-width: 800px) {
@@ -187,12 +200,11 @@ nav a {
         }      
     }
     #featured-item {
-        img {
-            height: 40px;
-            object-fit: contain;
+        #burger {
+            height: 300px;
         }
         h4 {
-            font-size: 15px;
+            font-size: 20px;
             width: 80%;
         }
     }
