@@ -139,6 +139,7 @@ nav a {
         border: 4px solid #7e3fae;
         box-shadow: 5px 4px 1px #30094f;
         padding: 20px;
+        height: 400px;
         text-align: center;
         flex: 1;
     }
